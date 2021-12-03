@@ -5,6 +5,6 @@ public class SystemTime {
 //        System.out.println("Hello em");
         Date now = new Date();
 
-        System.out.println("Today is "+now);
+        System.out.println("Today is " + now);
     }
 }
