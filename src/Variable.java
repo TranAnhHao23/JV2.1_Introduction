@@ -14,6 +14,5 @@ public class Variable {
         System.out.println("c= " + c);
         System.out.println("s= " + s);
 
-
     }
 }
