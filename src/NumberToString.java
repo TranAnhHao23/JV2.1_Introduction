@@ -108,6 +108,9 @@ public class NumberToString {
                     break;
             }
             switch (tens) {
+                case 1:
+                    numberString += "onety ";
+                    break;
                 case 2:
                     numberString += "twenty ";
                     break;
@@ -164,5 +167,8 @@ public class NumberToString {
             }
         }
         System.out.println(numberString);
+        System.out.println(hundred);
+        System.out.println(tens);
+        System.out.println(ones);
     }
 }
